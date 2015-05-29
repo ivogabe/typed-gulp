@@ -1,0 +1,1 @@
+require('../release/main').compile();

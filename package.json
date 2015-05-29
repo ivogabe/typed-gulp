@@ -1,0 +1,32 @@
+{
+  "name": "typed-gulp",
+  "version": "0.1.0",
+  "description": "The streaming build system in TypeScript",
+  "main": "release/main.js",
+  "bin": {
+    "typed-gulp": "./cli.js"
+  },
+  "keywords": [
+    "gulp",
+    "typescript",
+    "build",
+    "gulpfriendly"
+  ],
+  "author": "Ivo Gabe de Wolff",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "del": "^1.2.0",
+    "merge2": "^0.3.5",
+    "typescript": "^1.5.0-beta"
+  },
+  "peerDependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "dts-generator": "^1.4.1",
+    "gulp-footer": "^1.0.5",
+    "gulp-typescript": "^2.7.5"
+  }
+}
