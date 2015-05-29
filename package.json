@@ -2,6 +2,12 @@
   "name": "typed-gulp",
   "version": "0.1.0",
   "description": "The streaming build system in TypeScript",
+  "homepage": "https://github.com/ivogabe/typed-gulp",
+  "bugs": "https://github.com/ivogabe/typed-gulp/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivogabe/typed-gulp.git"
+  },
   "main": "release/main.js",
   "bin": {
     "typed-gulp": "./cli.js"
